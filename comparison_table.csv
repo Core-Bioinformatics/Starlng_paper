@@ -1,0 +1,137 @@
+"method_name","dataset_name","comparison_type","value","rank"
+"Hotspot","sergio","ground_truth_discarded_genes",31.4499213424227,4
+"PAGA+CellRank","sergio","ground_truth_discarded_genes",1.15364446775039,1
+"SCENIC","sergio","ground_truth_discarded_genes",14.3287886733089,3
+"Starlng","sergio","ground_truth_discarded_genes",11.2480335605663,2
+"hdWGCNA","sergio","ground_truth_discarded_genes",69.1924488725747,5
+"Hotspot","sergio","ground_truth_ecs",0.561643835616438,1
+"PAGA+CellRank","sergio","ground_truth_ecs",0.155963302752294,5
+"SCENIC","sergio","ground_truth_ecs",0.183501683501683,3
+"Starlng","sergio","ground_truth_ecs",0.510489510489511,2
+"hdWGCNA","sergio","ground_truth_ecs",0.177966101694915,4
+"Hotspot","cao_Pancreas","enrichment_all_modules_GO:BP",1249,1
+"PAGA+CellRank","cao_Pancreas","enrichment_all_modules_GO:BP",174,5
+"SCENIC","cao_Pancreas","enrichment_all_modules_GO:BP",404,4
+"Starlng","cao_Pancreas","enrichment_all_modules_GO:BP",862,2
+"hdWGCNA","cao_Pancreas","enrichment_all_modules_GO:BP",611,3
+"Hotspot","cao_Pancreas","enrichment_all_modules_TF",50,3
+"PAGA+CellRank","cao_Pancreas","enrichment_all_modules_TF",1,5
+"SCENIC","cao_Pancreas","enrichment_all_modules_TF",63,2
+"Starlng","cao_Pancreas","enrichment_all_modules_TF",8,4
+"hdWGCNA","cao_Pancreas","enrichment_all_modules_TF",86,1
+"Hotspot","cao_Pancreas","enrichment_top10hubs_modules_GO:BP",813,1
+"PAGA+CellRank","cao_Pancreas","enrichment_top10hubs_modules_GO:BP",545,2
+"SCENIC","cao_Pancreas","enrichment_top10hubs_modules_GO:BP",226,4
+"Starlng","cao_Pancreas","enrichment_top10hubs_modules_GO:BP",487,3
+"hdWGCNA","cao_Pancreas","enrichment_top10hubs_modules_GO:BP",40,5
+"Hotspot","masld_immune","enrichment_all_modules_GO:BP",1668,1
+"PAGA+CellRank","masld_immune","enrichment_all_modules_GO:BP",423,5
+"SCENIC","masld_immune","enrichment_all_modules_GO:BP",29,6
+"Starlng(high Moran's I)","masld_immune","enrichment_all_modules_GO:BP",1290,4
+"Starlng(low Moran's I)","masld_immune","enrichment_all_modules_GO:BP",1366,3
+"hdWGCNA","masld_immune","enrichment_all_modules_GO:BP",1406,2
+"Hotspot","masld_immune","enrichment_all_modules_TF",42,4
+"Starlng(high Moran's I)","masld_immune","enrichment_all_modules_TF",82,3
+"Starlng(low Moran's I)","masld_immune","enrichment_all_modules_TF",176,2
+"hdWGCNA","masld_immune","enrichment_all_modules_TF",202,1
+"PAGA+CellRank","masld_immune","enrichment_all_modules_TF",0,6
+"SCENIC","masld_immune","enrichment_all_modules_TF",0,6
+"Hotspot","masld_immune","enrichment_top10hubs_modules_GO:BP",1211,1
+"PAGA+CellRank","masld_immune","enrichment_top10hubs_modules_GO:BP",312,4
+"SCENIC","masld_immune","enrichment_top10hubs_modules_GO:BP",109,5
+"Starlng(high Moran's I)","masld_immune","enrichment_top10hubs_modules_GO:BP",846,2
+"Starlng(low Moran's I)","masld_immune","enrichment_top10hubs_modules_GO:BP",807,3
+"hdWGCNA","masld_immune","enrichment_top10hubs_modules_GO:BP",33,6
+"PAGA+CellRank","masld_immune","enrichment_top10hubs_modules_TF",1,3
+"Starlng(high Moran's I)","masld_immune","enrichment_top10hubs_modules_TF",7,2
+"hdWGCNA","masld_immune","enrichment_top10hubs_modules_TF",9,1
+"Hotspot","masld_immune","enrichment_top10hubs_modules_TF",0,6
+"Starlng(low Moran's I)","masld_immune","enrichment_top10hubs_modules_TF",0,6
+"SCENIC","masld_immune","enrichment_top10hubs_modules_TF",0,6
+"Hotspot","cao_Liver_subset","enrichment_all_modules_GO:BP",668,1
+"PAGA+CellRank","cao_Liver_subset","enrichment_all_modules_GO:BP",39,5
+"SCENIC","cao_Liver_subset","enrichment_all_modules_GO:BP",404,2
+"Starlng","cao_Liver_subset","enrichment_all_modules_GO:BP",182,4
+"hdWGCNA","cao_Liver_subset","enrichment_all_modules_GO:BP",315,3
+"Hotspot","cao_Liver_subset","enrichment_all_modules_TF",12,3
+"SCENIC","cao_Liver_subset","enrichment_all_modules_TF",36,2
+"Starlng","cao_Liver_subset","enrichment_all_modules_TF",1,4
+"hdWGCNA","cao_Liver_subset","enrichment_all_modules_TF",76,1
+"PAGA+CellRank","cao_Liver_subset","enrichment_all_modules_TF",0,5
+"Hotspot","cao_Liver_subset","enrichment_top10hubs_modules_GO:BP",230,2
+"PAGA+CellRank","cao_Liver_subset","enrichment_top10hubs_modules_GO:BP",484,1
+"SCENIC","cao_Liver_subset","enrichment_top10hubs_modules_GO:BP",111,4
+"Starlng","cao_Liver_subset","enrichment_top10hubs_modules_GO:BP",125,3
+"hdWGCNA","cao_Liver_subset","enrichment_top10hubs_modules_GO:BP",0,5
+"Hotspot","cao_Liver_subset","enrichment_top10hubs_modules_TF",1,1
+"hdWGCNA","cao_Liver_subset","enrichment_top10hubs_modules_TF",1,1
+"Starlng","cao_Liver_subset","enrichment_top10hubs_modules_TF",0,5
+"PAGA+CellRank","cao_Liver_subset","enrichment_top10hubs_modules_TF",0,5
+"SCENIC","cao_Liver_subset","enrichment_top10hubs_modules_TF",0,5
+"Hotspot","cao_Pancreas","selected_module_proportion",0.266666666666667,4
+"PAGA+CellRank","cao_Pancreas","selected_module_proportion",0.454545454545455,3
+"SCENIC","cao_Pancreas","selected_module_proportion",0.059375,5
+"Starlng","cao_Pancreas","selected_module_proportion",0.555555555555556,2
+"hdWGCNA","cao_Pancreas","selected_module_proportion",0.6,1
+"Hotspot","cao_Pancreas","selected_module_total_coverage",0.94072887694958,1
+"PAGA+CellRank","cao_Pancreas","selected_module_total_coverage",0.695714858829395,4
+"SCENIC","cao_Pancreas","selected_module_total_coverage",0.713416101219183,3
+"Starlng","cao_Pancreas","selected_module_total_coverage",0.830276332597918,2
+"hdWGCNA","cao_Pancreas","selected_module_total_coverage",0.536323588605967,5
+"Hotspot","cao_Pancreas","selected_module_max_iqr",10.844,4
+"PAGA+CellRank","cao_Pancreas","selected_module_max_iqr",6.96,2
+"SCENIC","cao_Pancreas","selected_module_max_iqr",14.843,5
+"Starlng","cao_Pancreas","selected_module_max_iqr",5.965,1
+"hdWGCNA","cao_Pancreas","selected_module_max_iqr",8.403,3
+"Hotspot","masld_immune","selected_module_proportion",0.397058823529412,5
+"PAGA+CellRank","masld_immune","selected_module_proportion",0.461538461538462,4
+"SCENIC","masld_immune","selected_module_proportion",0.224299065420561,6
+"Starlng(high Moran's I)","masld_immune","selected_module_proportion",0.621621621621622,2
+"Starlng(low Moran's I)","masld_immune","selected_module_proportion",0.48780487804878,3
+"hdWGCNA","masld_immune","selected_module_proportion",1,1
+"Starlng","masld_immune","selected_module_proportion",0,5
+"Hotspot","masld_immune","selected_module_total_coverage",0.940145042541704,1
+"PAGA+CellRank","masld_immune","selected_module_total_coverage",0.771295595961338,5
+"SCENIC","masld_immune","selected_module_total_coverage",0.882887763215413,3
+"Starlng(high Moran's I)","masld_immune","selected_module_total_coverage",0.89695854759711,2
+"Starlng(low Moran's I)","masld_immune","selected_module_total_coverage",0.773027385916008,4
+"hdWGCNA","masld_immune","selected_module_total_coverage",0.518237904835123,6
+"Starlng","masld_immune","selected_module_total_coverage",0,5
+"Hotspot","masld_immune","selected_module_max_iqr",11.055,5
+"PAGA+CellRank","masld_immune","selected_module_max_iqr",8.457,2
+"SCENIC","masld_immune","selected_module_max_iqr",16.956,6
+"Starlng(high Moran's I)","masld_immune","selected_module_max_iqr",8.491,3
+"Starlng(low Moran's I)","masld_immune","selected_module_max_iqr",9.815,4
+"hdWGCNA","masld_immune","selected_module_max_iqr",6.56,1
+"Starlng","masld_immune","selected_module_max_iqr",NA,5
+"Hotspot","cao_Liver_subset","selected_module_proportion",0.578947368421053,2
+"PAGA+CellRank","cao_Liver_subset","selected_module_proportion",0.545454545454545,3
+"SCENIC","cao_Liver_subset","selected_module_proportion",0.0563380281690141,5
+"Starlng","cao_Liver_subset","selected_module_proportion",0.583333333333333,1
+"hdWGCNA","cao_Liver_subset","selected_module_proportion",0.5,4
+"Hotspot","cao_Liver_subset","selected_module_total_coverage",0.506383856124712,2
+"PAGA+CellRank","cao_Liver_subset","selected_module_total_coverage",0.635090610755189,1
+"SCENIC","cao_Liver_subset","selected_module_total_coverage",0.28500823883229,4
+"Starlng","cao_Liver_subset","selected_module_total_coverage",0.383237232989951,3
+"hdWGCNA","cao_Liver_subset","selected_module_total_coverage",0.165980230742504,5
+"Hotspot","cao_Liver_subset","selected_module_max_iqr",4.483,3
+"PAGA+CellRank","cao_Liver_subset","selected_module_max_iqr",6.682,5
+"SCENIC","cao_Liver_subset","selected_module_max_iqr",6.656,4
+"Starlng","cao_Liver_subset","selected_module_max_iqr",3.469,2
+"hdWGCNA","cao_Liver_subset","selected_module_max_iqr",1.891,1
+"Starlng","cao_Pancreas","pseudotime_jumps",21.0655894625568,1
+"Hotspot","cao_Pancreas","pseudotime_jumps",53.6117529897336,4
+"hdWGCNA","cao_Pancreas","pseudotime_jumps",25.633299617347,3
+"SCENIC","cao_Pancreas","pseudotime_jumps",64.8624707628275,5
+"PAGA+CellRank","cao_Pancreas","pseudotime_jumps",23.0693325526721,2
+"Hotspot","masld_immune","pseudotime_jumps",113.116958899141,5
+"hdWGCNA","masld_immune","pseudotime_jumps",24.2064472123131,1
+"SCENIC","masld_immune","pseudotime_jumps",248.487448901027,6
+"Starlng(high Moran's I)","masld_immune","pseudotime_jumps",62.1579953187001,4
+"Starlng(low Moran's I)","masld_immune","pseudotime_jumps",38.9536830193991,2
+"PAGA+CellRank","masld_immune","pseudotime_jumps",41.9518451618827,3
+"Starlng","cao_Liver_subset","pseudotime_jumps",17.1623024620447,1
+"Hotspot","cao_Liver_subset","pseudotime_jumps",24.3785225883741,3
+"hdWGCNA","cao_Liver_subset","pseudotime_jumps",20.8084543541378,2
+"PAGA+CellRank","cao_Liver_subset","pseudotime_jumps",48.3089884032779,4
+"SCENIC","cao_Liver_subset","pseudotime_jumps",57.733305388954,5
