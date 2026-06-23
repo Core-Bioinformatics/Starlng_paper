@@ -111,18 +111,36 @@ create_intervals <- function(stats_df, min_psd, max_psd) {
     return(intervals[order_intervals])
 }
 
+compute_jumps <- function(stat_df, min_psd) {
+    stat_df <- stat_df %>% arrange(.data$median_psd)
+    k <- nrow(stat_df)
+    jumps <- rep(NA_real_, k)
+
+    for (i in seq_len(k)) {
+        current_q1 <- stat_df$q1[i]
+        current_q3 <- stat_df$q3[i]
+        prev_q3 <- ifelse(i == 1, min_psd, stat_df$q3[i - 1])
+        prev_q1 <- ifelse(i == 1, min_psd, stat_df$q1[i - 1])
+
+        if (prev_q3 < current_q1) {
+            jumps[i] <- current_q1 - prev_q3
+        } else {
+            jumps[i] <- (current_q1 + current_q3 - prev_q3 - prev_q1) / 2
+        }
+        # if (i == 1) {
+        #     jumps[i] <- stat_df$q1[i] - min_psd
+        # } else {
+        #     jumps[i] <- stat_df$q1[i] - stat_df$q3[i - 1]
+        # }
+    }
+
+    jumps
+}
+
 plot_jumps <- function(stat_df, min_psd) {
     stat_df <- stat_df %>% arrange(.data$median_psd)
     k <- nrow(stat_df)
-    jumps <- rep(NA, k)
-
-    for (i in seq_len(k)) {
-        if (i == 1) {
-            jumps[i] <- stat_df$q1[i] - min_psd
-        } else {
-            jumps[i] <- stat_df$q1[i] - stat_df$q3[i - 1]
-        }
-    }
+    jumps <- compute_jumps(stat_df, min_psd)
 
     sum_jumps <- sum(abs(jumps))
     ggplot(stat_df, aes(x = seq_len(nrow(stat_df)), y = jumps)) +
@@ -134,22 +152,6 @@ plot_jumps <- function(stat_df, min_psd) {
             axis.text.y = element_text(size = 10),
             legend.position = "none"
         ) + xlab("") 
-}
-
-compute_jumps <- function(stat_df, min_psd) {
-    stat_df <- stat_df %>% arrange(.data$median_psd)
-    k <- nrow(stat_df)
-    jumps <- rep(NA_real_, k)
-
-    for (i in seq_len(k)) {
-        if (i == 1) {
-            jumps[i] <- stat_df$q1[i] - min_psd
-        } else {
-            jumps[i] <- stat_df$q1[i] - stat_df$q3[i - 1]
-        }
-    }
-
-    jumps
 }
 
 compute_n_hits <- function(stats_df, intervals, pseudotime_vals) {
