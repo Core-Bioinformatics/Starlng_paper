@@ -373,9 +373,10 @@ for (dts_name in names(dts_combinations)) {
             length(strsplit(lbl, "\n", fixed = TRUE)[[1]])
         })
         enrichment_dotplot_height <- max(10, min(35, 3 + 0.45 * sum(term_line_counts)))
+        remaining_modules <- intersect(selected_modules, unique(top_20_enrich_df$module))
 
         # sort the enriched terms based on the module ordering
-        top_20_enrich_df$module <- factor(top_20_enrich_df$module, levels = selected_modules)
+        top_20_enrich_df$module <- factor(top_20_enrich_df$module, levels = remaining_modules)
         top_20_enrich_df <- top_20_enrich_df %>% arrange(module, p_value)
         top_20_enrich_df$term_name <- factor(top_20_enrich_df$term_name, levels = unique(top_20_enrich_df$term_name))
         
