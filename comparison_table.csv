@@ -119,19 +119,19 @@
 "SCENIC","cao_Liver_subset","selected_module_max_iqr",6.656,4
 "Starlng","cao_Liver_subset","selected_module_max_iqr",3.469,2
 "hdWGCNA","cao_Liver_subset","selected_module_max_iqr",1.891,1
-"Starlng","cao_Pancreas","pseudotime_jumps",21.0655894625568,1
-"Hotspot","cao_Pancreas","pseudotime_jumps",53.6117529897336,4
-"hdWGCNA","cao_Pancreas","pseudotime_jumps",25.633299617347,3
-"SCENIC","cao_Pancreas","pseudotime_jumps",64.8624707628275,5
-"PAGA+CellRank","cao_Pancreas","pseudotime_jumps",23.0693325526721,2
-"Hotspot","masld_immune","pseudotime_jumps",113.116958899141,5
-"hdWGCNA","masld_immune","pseudotime_jumps",24.2064472123131,1
-"SCENIC","masld_immune","pseudotime_jumps",248.487448901027,6
-"Starlng(high Moran's I)","masld_immune","pseudotime_jumps",62.1579953187001,4
-"Starlng(low Moran's I)","masld_immune","pseudotime_jumps",38.9536830193991,2
-"PAGA+CellRank","masld_immune","pseudotime_jumps",41.9518451618827,3
-"Starlng","cao_Liver_subset","pseudotime_jumps",17.1623024620447,1
-"Hotspot","cao_Liver_subset","pseudotime_jumps",24.3785225883741,3
-"hdWGCNA","cao_Liver_subset","pseudotime_jumps",20.8084543541378,2
-"PAGA+CellRank","cao_Liver_subset","pseudotime_jumps",48.3089884032779,4
-"SCENIC","cao_Liver_subset","pseudotime_jumps",57.733305388954,5
+"Starlng","cao_Pancreas","pseudotime_jumps",22.321675721422,1
+"Hotspot","cao_Pancreas","pseudotime_jumps",33.1357375316802,4
+"hdWGCNA","cao_Pancreas","pseudotime_jumps",24.163128532985,2
+"SCENIC","cao_Pancreas","pseudotime_jumps",33.8469093803325,5
+"PAGA+CellRank","cao_Pancreas","pseudotime_jumps",28.5447216202334,3
+"Hotspot","masld_immune","pseudotime_jumps",46.3905294253268,5
+"hdWGCNA","masld_immune","pseudotime_jumps",24.2064472123131,2
+"SCENIC","masld_immune","pseudotime_jumps",85.6723045754716,6
+"Starlng(high Moran's I)","masld_immune","pseudotime_jumps",36.3302916320064,4
+"Starlng(low Moran's I)","masld_immune","pseudotime_jumps",31.7533402014941,3
+"PAGA+CellRank","masld_immune","pseudotime_jumps",21.7698853442008,1
+"Starlng","cao_Liver_subset","pseudotime_jumps",16.3180823772036,2
+"Hotspot","cao_Liver_subset","pseudotime_jumps",15.4733712421809,1
+"hdWGCNA","cao_Liver_subset","pseudotime_jumps",20.8084543541378,4
+"PAGA+CellRank","cao_Liver_subset","pseudotime_jumps",18.8264696427886,3
+"SCENIC","cao_Liver_subset","pseudotime_jumps",27.5074872122834,5
